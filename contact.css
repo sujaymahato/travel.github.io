@@ -1,0 +1,61 @@
+/* navbar*/
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: gray;
+    font-family: 'Nunito', sans-serif;
+}
+.banner{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(images/contact.jpg);
+    height: 900px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbg{
+    background-color: transparent;
+}
+.font{
+    font-family: 'Nunito', sans-serif; 
+}
+.contact-box{
+    background: white;
+    
+}
+.contact-left{
+    flex-basis: 40%;
+    padding: 40px;
+    background: black;
+    color: white;
+}
+
+.contact-right{
+    flex-basis: 60%;
+    padding: 40px;
+    color: black;
+    
+}
+input{
+    height: 40px;
+    outline: none;
+    
+}
+
+textarea{
+    width: 100%;
+}
+
+
+
+/* responsiveness*/
+
+@media (max-width:480px){
+    .contact-box{
+        display: flex;
+        flex-direction: column;
+    }
+}

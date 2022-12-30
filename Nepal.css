@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: gray;
+    font-family: 'Nunito', sans-serif;
+}
+.navbg{
+    background-color: transparent;
+}
+.banner{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)), url(images/Nepal.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 900px;
+}
+.font{
+    font-family: 'Nunito', sans-serif; 
+}
