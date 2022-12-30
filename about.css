@@ -38,6 +38,10 @@ body{
 .paragraph{
     text-align: justify;
 }
+.review{
+    display: flex;
+    justify-content: space-around;
+}
 .reviewbox{
   
     width: 20%;
